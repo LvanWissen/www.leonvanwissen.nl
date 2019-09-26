@@ -1,7 +1,7 @@
 ---
 title: "Keeping up with the times: Measuring the relevance of Social Sciences and Humanities research in Dutch societal debates (2000-2018)"
-date: 2019-01-01
-publishDate: 2019-09-24T19:45:29.932549Z
+date: 2019-09-01
+publishDate: 2019-09-26T18:49:41.696332Z
 authors: ["Emillie de Keulenaar", "Leon van Wissen", "Ivan Kisjes"]
 publication_types: ["1"]
 abstract: ""
