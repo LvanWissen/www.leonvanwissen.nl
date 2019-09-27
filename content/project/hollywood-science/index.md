@@ -1,10 +1,12 @@
 ---
 title: "Hollywood Science: Art, Science and Film"
-summary: Course tought at the Vrije Universiteit Amsterdam in 2017 and 2018
+subtitle: Course tought at the Vrije Universiteit Amsterdam in 2017 and 2018.
+summary: Course tought at the Vrije Universiteit Amsterdam in 2017 and 2018.
 tags:
 - Hollywood Science
-- teaching
+- Teaching
 - VU
+- Canvas
 date: "2018-07-01"
 
 # Optional external URL for project (replaces project detail page).
@@ -15,10 +17,6 @@ image:
   focal_point: Smart
 
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -32,4 +30,4 @@ url_video: ""
 slides: example
 ---
 
-A link to the course material can be found here. 
+Perhaps I should share my course material over here... 

@@ -1,6 +1,6 @@
 ---
 title: "Tussen Hooft en Vondel: Suffridus Sixtinus’ Geeraerdt van Velsen lyende"
-date: 2015-01-01
+date: 2015-06-01
 publishDate: 2019-09-24T19:45:29.940331Z
 authors: ["Leon van Wissen"]
 publication_types: ["7"]
@@ -10,7 +10,7 @@ publication: ""
 url_pdf: ""
 ---
 
-# Tussen Hooft en Vondel
+## Samenvatting
 
 In 1613 publiceert P.C. Hooft zijn toneelstuk *Geeraerdt van Velsen*, dat gaat over de moord op de Hollandse graaf Floris V bij het Muiderslot door de edelmannen Geeraerdt van Velsen, Harmen van Woerden en Gysbreght van Aemstel. Een kwart eeuw later gebruikt Joost van den Vondel dit laatstgenoemde personage voor zijn gelijknamige toneelstuk (1638). In de 25 jaar tijd tussen het verschijnen van de twee toneelstukken van Hooft en Vondel zijn nóg twee toneelspelen verschenen binnen dit thema van de moord op de Hollandse graaf. Het gaat om een toneelspel van Jacob Janszoon Colevelt, hoofd van de Brabantse rederijkerskamer in Amsterdam, en Suffridus Sixtinus, bekend van zijn Apollo, het openingsstuk van Costers Nederduitsche Academie in 1617. Zij schreven respectievelijk *Droef-eyndend-spel, tusschen graef Floris, en Gerrit van Velsen*. (1628) en *Geeraerdt van Velsen lyende* (1628).[^1]
 

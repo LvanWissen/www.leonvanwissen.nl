@@ -3,7 +3,7 @@ title: "From archive to annotation: the pipeline of scanning, crowdsourcing, tra
 date: 2019-09-01
 publishDate: 2019-09-26T18:49:41.695618Z
 authors: ["Jirsi Reinders", "Leon van Wissen"]
-publication_types: ["0"]
+publication_types: ["9"]
 abstract: ""
 featured: false
 publication: ""

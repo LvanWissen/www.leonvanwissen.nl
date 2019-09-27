@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: developer
+role: Computational Neerlandist
 
 # Organizations/Affiliations
 organizations:
@@ -18,9 +18,10 @@ organizations:
   url: "https://www.uva.nl"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I am a scientific programmer at the University of Amsterdam (UvA) for the Golden Agents project and CREATE.
 
 interests:
+- Language Technology and the Semantic Web
 - Dutch literature
 - Early modern history
 - Cycling
@@ -40,17 +41,23 @@ education:
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
 - icon: envelope
-  icon_pack: fas
+  icon_pack: fa
   link: 'mailto:leon@vwissen.nl'  # For a direct email link, use "mailto:test@example.org".
-# - icon: twitter
-#   icon_pack: fab
-#   link: https://twitter.com/GeorgeCushen
-# - icon: google-scholar
-#   icon_pack: ai
-#   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+- icon: keybase
+  icon_pack: fab
+  link: https://keybase.io/LvanWissen
+- icon: linkedin
+  icon_pack: fab
+  link: https://nl.linkedin.com/in/leon-van-wissen-5610ab55
 - icon: github
   icon_pack: fab
   link: https://github.com/lvanwissen
+- icon: gitlab
+  icon_pack: fab
+  link: https://gitlab.com/lvanwissen
+- icon: strava
+  icon_pack: fab
+  link: https://www.strava.com/athletes/80384
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
@@ -67,4 +74,4 @@ user_groups:
 - Visitors
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I am working as a scientific programmer at the University of Amsterdam (UvA) for the [Golden Agents](https://www.goldenagents.org) project and [CREATE](https://www.create.humanities.uva.nl). 
