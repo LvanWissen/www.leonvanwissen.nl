@@ -140,6 +140,9 @@ list_delimiter = ", "
 ## Advanced
 ############################
 
+# Noisy
+noisy = true
+
 # Get user avatars from Gravatar.com? (true/false)
 gravatar = true
 
