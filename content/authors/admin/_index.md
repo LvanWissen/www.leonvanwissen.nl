@@ -18,7 +18,7 @@ organizations:
   url: "https://www.uva.nl"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a scientific programmer at the University of Amsterdam (UvA) for the Golden Agents project and CREATE.
+bio: I am a scientific programmer at the University of Amsterdam (UvA) for the Golden Agents project and CREATE working with historical databases and linked data.
 
 interests:
 - Language Technology and the Semantic Web
@@ -74,4 +74,4 @@ user_groups:
 - Visitors
 ---
 
-I am working as a scientific programmer at the University of Amsterdam (UvA) for the [Golden Agents](https://www.goldenagents.org) project and [CREATE](https://www.create.humanities.uva.nl). 
+I am a scientific programmer at the University of Amsterdam (UvA) for the [Golden Agents](https://www.goldenagents.org) project and [CREATE](https://www.create.humanities.uva.nl) working with historical databases and linked data. 
