@@ -1,0 +1,199 @@
+[
+  {
+    "@id": "https://leonvanwissen.nl/me",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Person",
+      "https://schema.org/Person"
+    ],
+    "http://xmlns.com/foaf/0.1/depiction": [
+      {
+        "@id": "https://www.leonvanwissen.nl/leon.png"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/family_name": [
+      {
+        "@value": "Van Wissen"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/givenname": [
+      {
+        "@value": "Leon"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/homepage": [
+      {
+        "@id": "https://www.leonvanwissen.nl/"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/mbox": [
+      {
+        "@id": "mailto:leon@vwissen.nl"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Leon van Wissen"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/workInfoHomepage": [
+      {
+        "@id": "https://www.uva.nl/profiel/w/i/l.vanwissen/l.van-wissen.html"
+      }
+    ],
+    "https://schema.org/alumniOf": [
+      {
+        "@id": "_:ub1bL20C21"
+      }
+    ],
+    "https://schema.org/homeLocation": [
+      {
+        "@id": "_:ub1bL26C25"
+      }
+    ],
+    "https://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://www.leonvanwissen.nl/"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Leon van Wissen"
+      }
+    ],
+    "https://schema.org/worksFor": [
+      {
+        "@id": "_:ub1bL32C21"
+      }
+    ],
+    "https://w3id.org/pnv#hasName": [
+      {
+        "@id": "_:ub1bL38C17"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL38C17",
+    "@type": [
+      "https://w3id.org/pnv#PersonName"
+    ],
+    "https://w3id.org/pnv#baseSurname": [
+      {
+        "@value": "Wissen"
+      }
+    ],
+    "https://w3id.org/pnv#givenName": [
+      {
+        "@value": "Leon"
+      }
+    ],
+    "https://w3id.org/pnv#literalName": [
+      {
+        "@value": "Leon van Wissen"
+      }
+    ],
+    "https://w3id.org/pnv#surname": [
+      {
+        "@value": "van Wissen"
+      }
+    ],
+    "https://w3id.org/pnv#surnamePrefix": [
+      {
+        "@value": "van"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL20C21",
+    "@type": [
+      "https://schema.org/CollegeOrUniversity"
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://dbpedia.org/resource/Vrije_Universiteit_Amsterdam"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q1065414"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "VU University Amsterdam"
+      },
+      {
+        "@language": "nl",
+        "@value": "Vrije Universiteit Amsterdam"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL32C21",
+    "@type": [
+      "https://schema.org/CollegeOrUniversity"
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://dbpedia.org/resource/University_of_Amsterdam"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q214341"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "nl",
+        "@value": "Universiteit van Amsterdam"
+      },
+      {
+        "@language": "en",
+        "@value": "University of Amsterdam"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL26C25",
+    "@type": [
+      "https://schema.org/Place"
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://dbpedia.org/resource/Amsterdam"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q727"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Amsterdam"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.leonvanwissen.nl/",
+    "@type": [
+      "https://schema.org/WebPage"
+    ],
+    "https://schema.org/mainEntity": [
+      {
+        "@id": "https://leonvanwissen.nl/me"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL48C1",
+    "@type": [
+      "http://xmlns.com/foaf/0.1/Document"
+    ],
+    "http://xmlns.com/foaf/0.1/maker": [
+      {
+        "@id": "https://leonvanwissen.nl/me"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/primaryTopic": [
+      {
+        "@id": "https://www.leonvanwissen.nl/me"
+      }
+    ]
+  }
+]

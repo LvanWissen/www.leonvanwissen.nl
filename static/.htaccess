@@ -1,0 +1,23 @@
+# Turn off MultiViews
+Options -MultiViews
+
+# Directive to ensure *.rdf files served as appropriate content type,
+# if not present in main apache config
+AddType application/rdf+xml .rdf
+AddType text/turtle .ttl
+AddType application/n-triples .nt
+AddType application/ld+json .json
+
+RewriteEngine on
+
+#Rewrite rules
+RewriteCond %{HTTP_ACCEPT} ^.*application/rdf\+xml.* 
+RewriteRule ^$ https://www.leonvanwissen.nl/leon.rdf [R=303,NE,L]
+RewriteCond %{HTTP_ACCEPT} ^.*text/turtle.* 
+RewriteRule ^$ https://www.leonvanwissen.nl/leon.ttl [R=303,NE,L]
+RewriteCond %{HTTP_ACCEPT} ^.*application/ld\+json.*
+RewriteRule ^$ https://www.leonvanwissen.nl/leon.json [R=303,NE,L]
+RewriteCond %{HTTP_ACCEPT} ^.*application/n-triples.*
+RewriteRule ^$ https://www.leonvanwissen.nl/leon.nt [R=303,NE,L]
+#default response: turtle
+RewriteRule ^$ https://www.leonvanwissen.nl/leon.ttl [R=303,NE,L]

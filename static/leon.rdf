@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:pnv="https://w3id.org/pnv#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="https://schema.org/"
+>
+  <rdf:Description rdf:about="https://leonvanwissen.nl/me">
+    <foaf:homepage rdf:resource="https://www.leonvanwissen.nl/"/>
+    <pnv:hasName rdf:nodeID="ub1bL38C17"/>
+    <schema:alumniOf rdf:nodeID="ub1bL20C21"/>
+    <foaf:family_name>Van Wissen</foaf:family_name>
+    <foaf:name>Leon van Wissen</foaf:name>
+    <foaf:depiction rdf:resource="https://www.leonvanwissen.nl/leon.png"/>
+    <schema:mainEntityOfPage rdf:resource="https://www.leonvanwissen.nl/"/>
+    <schema:worksFor rdf:nodeID="ub1bL32C21"/>
+    <schema:name>Leon van Wissen</schema:name>
+    <foaf:givenname>Leon</foaf:givenname>
+    <foaf:mbox rdf:resource="mailto:leon@vwissen.nl"/>
+    <foaf:workInfoHomepage rdf:resource="https://www.uva.nl/profiel/w/i/l.vanwissen/l.van-wissen.html"/>
+    <schema:homeLocation rdf:nodeID="ub1bL26C25"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdf:type rdf:resource="https://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL48C1">
+    <foaf:maker rdf:resource="https://leonvanwissen.nl/me"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <foaf:primaryTopic rdf:resource="https://www.leonvanwissen.nl/me"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.leonvanwissen.nl/">
+    <schema:mainEntity rdf:resource="https://leonvanwissen.nl/me"/>
+    <rdf:type rdf:resource="https://schema.org/WebPage"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL38C17">
+    <pnv:surname>van Wissen</pnv:surname>
+    <pnv:baseSurname>Wissen</pnv:baseSurname>
+    <rdf:type rdf:resource="https://w3id.org/pnv#PersonName"/>
+    <pnv:surnamePrefix>van</pnv:surnamePrefix>
+    <pnv:literalName>Leon van Wissen</pnv:literalName>
+    <pnv:givenName>Leon</pnv:givenName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL32C21">
+    <rdf:type rdf:resource="https://schema.org/CollegeOrUniversity"/>
+    <schema:name xml:lang="nl">Universiteit van Amsterdam</schema:name>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/University_of_Amsterdam"/>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q214341"/>
+    <schema:name xml:lang="en">University of Amsterdam</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL26C25">
+    <rdf:type rdf:resource="https://schema.org/Place"/>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Amsterdam"/>
+    <schema:name>Amsterdam</schema:name>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q727"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL20C21">
+    <schema:name xml:lang="en">VU University Amsterdam</schema:name>
+    <rdf:type rdf:resource="https://schema.org/CollegeOrUniversity"/>
+    <schema:name xml:lang="nl">Vrije Universiteit Amsterdam</schema:name>
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vrije_Universiteit_Amsterdam"/>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1065414"/>
+  </rdf:Description>
+</rdf:RDF>
