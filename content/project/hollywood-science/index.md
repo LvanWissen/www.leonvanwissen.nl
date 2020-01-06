@@ -19,7 +19,7 @@ image:
 links:
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "/slides"
 url_video: ""
 
 # Slides (optional).
@@ -30,4 +30,30 @@ url_video: ""
 slides: example
 ---
 
-Perhaps I should share my course material over here... 
+# Course material
+
+## Slides
+
+### Week 1
+
+[`2018_HS_Lecture01.pdf`](slides/2018_HS_Lecture01.pdf)
+
+### Week 2
+
+[`2018_HS_Lecture02.pdf`](slides/2018_HS_Lecture02.pdf)
+
+### Week 3
+
+[`2018_HS_Lecture03.pdf`](slides/2018_HS_Lecture03.pdf)
+
+### Week 4
+
+[`2018_HS_Lecture04.pdf`](slides/2018_HS_Lecture04.pdf)
+
+### Week 5
+
+[`2018_HS_Lecture05.pdf`](slides/2018_HS_Lecture05.pdf)
+
+### Week 6
+
+[`2018_HS_Lecture06.pdf`](slides/2018_HS_Lecture06.pdf)
