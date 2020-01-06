@@ -1,0 +1,24 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> . 
+@prefix pnv: <https://w3id.org/pnv#> .
+
+<https://www.leonvanwissen.nl/> a foaf:PersonalProfileDocument ; 
+    foaf:maker <https://www.leonvanwissen.nl/> ; 
+    foaf:primaryTopic <https://www.leonvanwissen.nl/> . 
+
+<https://www.leonvanwissen.nl/me> a foaf:Person ;
+    foaf:name "Leon van Wissen" ; 
+    foaf:givenname "Leon" ; 
+    foaf:family_name "Van Wissen" ; 
+    foaf:mbox <leon@vwissen.nl> ; 
+    foaf:homepage <https://www.leonvanwissen.nl/> ; 
+    foaf:depiction <https://www.leonvanwissen.nl/leon.png> ;
+    foaf:workInfoHomepage <https://www.uva.nl/profiel/w/i/l.vanwissen/l.van-wissen.html> ;
+    
+    pnv:hasName [ a pnv:PersonName ;
+                  pnv:givenName "Leon" ;
+                  pnv:surnamePrefix "van" ;
+                  pnv:baseSurname "Wissen" ;
+                  pnv:surname "van Wissen" ;
+                  pnv:literalName "Leon van Wissen" ] .
+                  
+                  
