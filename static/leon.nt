@@ -1,41 +1,44 @@
-<https://leonvanwissen.nl/me> <http://xmlns.com/foaf/0.1/homepage> <https://www.leonvanwissen.nl/> .
-<https://leonvanwissen.nl/me> <https://schema.org/alumniOf> _:ub1bL20C21 .
-_:ub1bL48C1 <http://xmlns.com/foaf/0.1/primaryTopic> <https://www.leonvanwissen.nl/me> .
-_:ub1bL48C1 <http://xmlns.com/foaf/0.1/maker> <https://leonvanwissen.nl/me> .
-<https://leonvanwissen.nl/me> <https://schema.org/name> "Leon van Wissen" .
-<https://www.leonvanwissen.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/WebPage> .
-<https://leonvanwissen.nl/me> <http://xmlns.com/foaf/0.1/mbox> <mailto:leon@vwissen.nl> .
-_:ub1bL38C17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/pnv#PersonName> .
-_:ub1bL38C17 <https://w3id.org/pnv#surname> "van Wissen" .
-_:ub1bL32C21 <https://schema.org/name> "Universiteit van Amsterdam"@nl .
-_:ub1bL26C25 <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Amsterdam> .
-<https://leonvanwissen.nl/me> <http://xmlns.com/foaf/0.1/givenname> "Leon" .
-_:ub1bL26C25 <https://schema.org/name> "Amsterdam" .
-_:ub1bL38C17 <https://w3id.org/pnv#literalName> "Leon van Wissen" .
-_:ub1bL20C21 <https://schema.org/name> "VU University Amsterdam"@en .
-_:ub1bL20C21 <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Vrije_Universiteit_Amsterdam> .
-_:ub1bL26C25 <http://www.w3.org/2002/07/owl#sameAs> <http://www.wikidata.org/entity/Q727> .
-<https://leonvanwissen.nl/me> <https://w3id.org/pnv#hasName> _:ub1bL38C17 .
-<https://leonvanwissen.nl/me> <http://xmlns.com/foaf/0.1/family_name> "Van Wissen" .
-<https://leonvanwissen.nl/me> <http://xmlns.com/foaf/0.1/name> "Leon van Wissen" .
-_:ub1bL32C21 <http://www.w3.org/2002/07/owl#sameAs> <http://www.wikidata.org/entity/Q214341> .
-_:ub1bL48C1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
-<https://leonvanwissen.nl/me> <https://schema.org/mainEntityOfPage> <https://www.leonvanwissen.nl/> .
-_:ub1bL32C21 <https://schema.org/name> "University of Amsterdam"@en .
-_:ub1bL38C17 <https://w3id.org/pnv#givenName> "Leon" .
-_:ub1bL20C21 <http://www.w3.org/2002/07/owl#sameAs> <http://www.wikidata.org/entity/Q1065414> .
-_:ub1bL32C21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CollegeOrUniversity> .
-<https://leonvanwissen.nl/me> <https://schema.org/worksFor> _:ub1bL32C21 .
-_:ub1bL32C21 <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/University_of_Amsterdam> .
-_:ub1bL20C21 <https://schema.org/name> "Vrije Universiteit Amsterdam"@nl .
-<https://leonvanwissen.nl/me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
-<https://leonvanwissen.nl/me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> .
-_:ub1bL38C17 <https://w3id.org/pnv#baseSurname> "Wissen" .
-_:ub1bL38C17 <https://w3id.org/pnv#surnamePrefix> "van" .
+<https://www.leonvanwissen.nl/> <http://xmlns.com/foaf/0.1/primaryTopic> <https://www.leonvanwissen.nl/me> .
 <https://leonvanwissen.nl/me> <http://xmlns.com/foaf/0.1/depiction> <https://www.leonvanwissen.nl/leon.png> .
-_:ub1bL26C25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Place> .
-<https://www.leonvanwissen.nl/> <https://schema.org/mainEntity> <https://leonvanwissen.nl/me> .
+_:ub1bL39C17 <https://w3id.org/pnv#baseSurname> "Wissen" .
+<https://leonvanwissen.nl/me> <https://schema.org/mainEntityOfPage> <https://www.leonvanwissen.nl/> .
+<https://leonvanwissen.nl/me> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://nl.linkedin.com/in/leon-van-wissen-5610ab55> .
+_:ub1bL39C17 <https://w3id.org/pnv#literalName> "Leon van Wissen" .
+_:ub1bL21C21 <https://schema.org/name> "VU University Amsterdam"@en .
+_:ub1bL27C25 <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Amsterdam> .
+_:ub1bL27C25 <http://www.w3.org/2002/07/owl#sameAs> <http://www.wikidata.org/entity/Q727> .
+_:ub1bL33C21 <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/University_of_Amsterdam> .
+<https://leonvanwissen.nl/me> <https://w3id.org/pnv#hasName> _:ub1bL39C17 .
+_:ub1bL21C21 <https://schema.org/name> "Vrije Universiteit Amsterdam"@nl .
+<https://leonvanwissen.nl/me> <http://xmlns.com/foaf/0.1/family_name> "Van Wissen" .
+<https://www.leonvanwissen.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> .
+<https://leonvanwissen.nl/me> <https://schema.org/worksFor> _:ub1bL33C21 .
+_:ub1bL33C21 <http://www.w3.org/2002/07/owl#sameAs> <http://www.wikidata.org/entity/Q214341> .
+<https://leonvanwissen.nl/me> <https://schema.org/homeLocation> _:ub1bL27C25 .
+_:ub1bL39C17 <https://w3id.org/pnv#givenName> "Leon" .
+_:ub1bL39C17 <https://w3id.org/pnv#surnamePrefix> "van" .
+<https://leonvanwissen.nl/me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:ub1bL21C21 <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Vrije_Universiteit_Amsterdam> .
+_:ub1bL21C21 <http://www.w3.org/2002/07/owl#sameAs> <http://www.wikidata.org/entity/Q1065414> .
+<https://leonvanwissen.nl/me> <http://xmlns.com/foaf/0.1/givenname> "Leon" .
+_:ub1bL27C25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Place> .
+<https://leonvanwissen.nl/me> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://scholar.google.nl/citations?user=QpTds1UAAAAJ> .
+<https://leonvanwissen.nl/me> <https://schema.org/alumniOf> _:ub1bL21C21 .
+_:ub1bL21C21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CollegeOrUniversity> .
+_:ub1bL39C17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/pnv#PersonName> .
+<https://www.leonvanwissen.nl/> <http://xmlns.com/foaf/0.1/maker> <https://leonvanwissen.nl/me> .
+_:ub1bL33C21 <https://schema.org/name> "Universiteit van Amsterdam"@nl .
+<https://leonvanwissen.nl/me> <http://xmlns.com/foaf/0.1/mbox> <mailto:leon@vwissen.nl> .
+<https://leonvanwissen.nl/me> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/lvanwissen> .
+_:ub1bL27C25 <https://schema.org/name> "Amsterdam" .
+<https://leonvanwissen.nl/me> <http://xmlns.com/foaf/0.1/name> "Leon van Wissen" .
+<https://www.leonvanwissen.nl/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/WebPage> .
+<https://leonvanwissen.nl/me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> .
 <https://leonvanwissen.nl/me> <http://xmlns.com/foaf/0.1/workInfoHomepage> <https://www.uva.nl/profiel/w/i/l.vanwissen/l.van-wissen.html> .
-<https://leonvanwissen.nl/me> <https://schema.org/homeLocation> _:ub1bL26C25 .
-_:ub1bL20C21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CollegeOrUniversity> .
+<https://leonvanwissen.nl/me> <http://xmlns.com/foaf/0.1/homepage> <https://www.leonvanwissen.nl/> .
+<https://leonvanwissen.nl/me> <https://schema.org/name> "Leon van Wissen" .
+_:ub1bL39C17 <https://w3id.org/pnv#surname> "van Wissen" .
+_:ub1bL33C21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CollegeOrUniversity> .
+<https://www.leonvanwissen.nl/> <https://schema.org/mainEntity> <https://leonvanwissen.nl/me> .
+_:ub1bL33C21 <https://schema.org/name> "University of Amsterdam"@en .
 

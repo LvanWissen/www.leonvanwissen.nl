@@ -11,6 +11,9 @@
 
 <https://leonvanwissen.nl/me> a foaf:Person,
         schema:Person ;
+    rdfs:seeAlso <https://github.com/lvanwissen>,
+        <https://nl.linkedin.com/in/leon-van-wissen-5610ab55>,
+        <https://scholar.google.nl/citations?user=QpTds1UAAAAJ> ;
     foaf:depiction <https://www.leonvanwissen.nl/leon.png> ;
     foaf:family_name "Van Wissen" ;
     foaf:givenname "Leon" ;
@@ -41,10 +44,9 @@
             pnv:surname "van Wissen" ;
             pnv:surnamePrefix "van" ] .
 
-<https://www.leonvanwissen.nl/> a schema:WebPage ;
-    schema:mainEntity <https://leonvanwissen.nl/me> .
-
-[] a foaf:Document ;
+<https://www.leonvanwissen.nl/> a foaf:Document,
+        schema:WebPage ;
     foaf:maker <https://leonvanwissen.nl/me> ;
-    foaf:primaryTopic <https://www.leonvanwissen.nl/me> .
+    foaf:primaryTopic <https://www.leonvanwissen.nl/me> ;
+    schema:mainEntity <https://leonvanwissen.nl/me> .
 

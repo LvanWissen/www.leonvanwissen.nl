@@ -2,8 +2,19 @@
   {
     "@id": "https://leonvanwissen.nl/me",
     "@type": [
-      "http://xmlns.com/foaf/0.1/Person",
-      "https://schema.org/Person"
+      "https://schema.org/Person",
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://nl.linkedin.com/in/leon-van-wissen-5610ab55"
+      },
+      {
+        "@id": "https://scholar.google.nl/citations?user=QpTds1UAAAAJ"
+      },
+      {
+        "@id": "https://github.com/lvanwissen"
+      }
     ],
     "http://xmlns.com/foaf/0.1/depiction": [
       {
@@ -42,12 +53,12 @@
     ],
     "https://schema.org/alumniOf": [
       {
-        "@id": "_:ub1bL20C21"
+        "@id": "_:ub1bL21C21"
       }
     ],
     "https://schema.org/homeLocation": [
       {
-        "@id": "_:ub1bL26C25"
+        "@id": "_:ub1bL27C25"
       }
     ],
     "https://schema.org/mainEntityOfPage": [
@@ -62,17 +73,41 @@
     ],
     "https://schema.org/worksFor": [
       {
-        "@id": "_:ub1bL32C21"
+        "@id": "_:ub1bL33C21"
       }
     ],
     "https://w3id.org/pnv#hasName": [
       {
-        "@id": "_:ub1bL38C17"
+        "@id": "_:ub1bL39C17"
       }
     ]
   },
   {
-    "@id": "_:ub1bL38C17",
+    "@id": "_:ub1bL21C21",
+    "@type": [
+      "https://schema.org/CollegeOrUniversity"
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://dbpedia.org/resource/Vrije_Universiteit_Amsterdam"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q1065414"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "VU University Amsterdam"
+      },
+      {
+        "@language": "nl",
+        "@value": "Vrije Universiteit Amsterdam"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub1bL39C17",
     "@type": [
       "https://w3id.org/pnv#PersonName"
     ],
@@ -103,40 +138,16 @@
     ]
   },
   {
-    "@id": "_:ub1bL20C21",
+    "@id": "_:ub1bL33C21",
     "@type": [
       "https://schema.org/CollegeOrUniversity"
     ],
     "http://www.w3.org/2002/07/owl#sameAs": [
-      {
-        "@id": "http://dbpedia.org/resource/Vrije_Universiteit_Amsterdam"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q1065414"
-      }
-    ],
-    "https://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "VU University Amsterdam"
-      },
-      {
-        "@language": "nl",
-        "@value": "Vrije Universiteit Amsterdam"
-      }
-    ]
-  },
-  {
-    "@id": "_:ub1bL32C21",
-    "@type": [
-      "https://schema.org/CollegeOrUniversity"
-    ],
-    "http://www.w3.org/2002/07/owl#sameAs": [
-      {
-        "@id": "http://dbpedia.org/resource/University_of_Amsterdam"
-      },
       {
         "@id": "http://www.wikidata.org/entity/Q214341"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/University_of_Amsterdam"
       }
     ],
     "https://schema.org/name": [
@@ -151,16 +162,16 @@
     ]
   },
   {
-    "@id": "_:ub1bL26C25",
+    "@id": "_:ub1bL27C25",
     "@type": [
       "https://schema.org/Place"
     ],
     "http://www.w3.org/2002/07/owl#sameAs": [
       {
-        "@id": "http://dbpedia.org/resource/Amsterdam"
+        "@id": "http://www.wikidata.org/entity/Q727"
       },
       {
-        "@id": "http://www.wikidata.org/entity/Q727"
+        "@id": "http://dbpedia.org/resource/Amsterdam"
       }
     ],
     "https://schema.org/name": [
@@ -172,18 +183,8 @@
   {
     "@id": "https://www.leonvanwissen.nl/",
     "@type": [
+      "http://xmlns.com/foaf/0.1/Document",
       "https://schema.org/WebPage"
-    ],
-    "https://schema.org/mainEntity": [
-      {
-        "@id": "https://leonvanwissen.nl/me"
-      }
-    ]
-  },
-  {
-    "@id": "_:ub1bL48C1",
-    "@type": [
-      "http://xmlns.com/foaf/0.1/Document"
     ],
     "http://xmlns.com/foaf/0.1/maker": [
       {
@@ -193,6 +194,11 @@
     "http://xmlns.com/foaf/0.1/primaryTopic": [
       {
         "@id": "https://www.leonvanwissen.nl/me"
+      }
+    ],
+    "https://schema.org/mainEntity": [
+      {
+        "@id": "https://leonvanwissen.nl/me"
       }
     ]
   }
