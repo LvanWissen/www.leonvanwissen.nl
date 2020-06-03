@@ -178,6 +178,9 @@
 - id: pub_tool
   translation: Tool / Demo
 
+- id: pub_poster
+  translation: Poster
+
 # Project details
 
 - id: open_project_site

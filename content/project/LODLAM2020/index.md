@@ -1,6 +1,6 @@
 ---
 title: LODLAM 2020
-subtitle: 
+subtitle: Reconstructions and Observations in Archival Resources - Golden Agents' LODLAM challenge entry
 summary: Reconstructions and Observations in Archival Resources - Golden Agents' LODLAM challenge entry
 tags:
 - LODLAM
@@ -9,7 +9,7 @@ tags:
 - ontology
 - archives
 - Golden Agents
-date: "2020-01-20"
+date: "2020-02-03"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -19,13 +19,9 @@ image:
   focal_point: Smart
 
 links:
-- icon: file-alt
-  icon_pack: fa
-  name: dataset
-  url: ""
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "LODLAM2020_challenge_pitch.pdf"
 url_video: "https://www.youtube.com/watch?v=H6CSktWA9cg"
 
 # Slides (optional).

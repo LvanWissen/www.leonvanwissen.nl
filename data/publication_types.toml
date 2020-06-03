@@ -10,5 +10,6 @@ types = [ "pub_uncat",
           "pub_thesis",
           "pub_patent",
           "pub_presentation",
-          "pub_tool"
+          "pub_tool",
+          "pub_poster"
         ]

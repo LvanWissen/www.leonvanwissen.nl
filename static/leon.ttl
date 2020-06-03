@@ -2,18 +2,39 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pnv: <https://w3id.org/pnv#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema: <https://schema.org/> .
+@prefix schema: <http://schema.org/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wot: <http://xmlns.com/wot/0.1/> .
 
-<https://leonvanwissen.nl/me> a foaf:Person,
-        schema:Person ;
+<https://www.leonvanwissen.nl/> a schema:WebPage,
+        foaf:Document ;
+    schema:mainEntity <https://leonvanwissen.nl/me> ;
+    foaf:maker <https://leonvanwissen.nl/me> ;
+    foaf:primaryTopic <https://leonvanwissen.nl/me> .
+
+<https://leonvanwissen.nl/me> a schema:Person,
+        foaf:Person ;
+    schema:alumniOf [ a schema:CollegeOrUniversity ;
+            schema:name "VU University Amsterdam"@en,
+                "Vrije Universiteit Amsterdam"@nl ;
+            owl:sameAs dbp:Vrije_Universiteit_Amsterdam,
+                wd:Q1065414 ] ;
+    schema:homeLocation [ a schema:Place ;
+            schema:name "Amsterdam" ;
+            owl:sameAs dbp:Amsterdam,
+                wd:Q727 ] ;
+    schema:mainEntityOfPage <https://www.leonvanwissen.nl/> ;
+    schema:name "Leon van Wissen" ;
+    schema:worksFor [ a schema:CollegeOrUniversity ;
+            schema:name "University of Amsterdam"@en,
+                "Universiteit van Amsterdam"@nl ;
+            owl:sameAs dbp:University_of_Amsterdam,
+                wd:Q214341 ] ;
     rdfs:seeAlso <https://github.com/lvanwissen>,
         <https://nl.linkedin.com/in/leon-van-wissen-5610ab55>,
         <https://scholar.google.nl/citations?user=QpTds1UAAAAJ> ;
+    owl:sameAs <https://orcid.org/0000-0001-8672-025X> ;
     foaf:depiction <https://www.leonvanwissen.nl/leon.png> ;
     foaf:family_name "Van Wissen" ;
     foaf:givenname "Leon" ;
@@ -21,32 +42,13 @@
     foaf:mbox <mailto:leon@vwissen.nl> ;
     foaf:name "Leon van Wissen" ;
     foaf:workInfoHomepage <https://www.uva.nl/profiel/w/i/l.vanwissen/l.van-wissen.html> ;
-    schema:alumniOf [ a schema:CollegeOrUniversity ;
-            owl:sameAs dbp:Vrije_Universiteit_Amsterdam,
-                wd:Q1065414 ;
-            schema:name "VU University Amsterdam"@en,
-                "Vrije Universiteit Amsterdam"@nl ] ;
-    schema:homeLocation [ a schema:Place ;
-            owl:sameAs dbp:Amsterdam,
-                wd:Q727 ;
-            schema:name "Amsterdam" ] ;
-    schema:mainEntityOfPage <https://www.leonvanwissen.nl/> ;
-    schema:name "Leon van Wissen" ;
-    schema:worksFor [ a schema:CollegeOrUniversity ;
-            owl:sameAs dbp:University_of_Amsterdam,
-                wd:Q214341 ;
-            schema:name "University of Amsterdam"@en,
-                "Universiteit van Amsterdam"@nl ] ;
+    wot:hasKey [ a wot:PubKey ;
+            wot:fingerprint "734F50E2BDA72A72137AD9BC63DA5F30B73C9F25" ;
+            wot:pubkeyAddress <https://keybase.io/lvanwissen/pgp_keys.asc> ] ;
     pnv:hasName [ a pnv:PersonName ;
             pnv:baseSurname "Wissen" ;
             pnv:givenName "Leon" ;
             pnv:literalName "Leon van Wissen" ;
             pnv:surname "van Wissen" ;
             pnv:surnamePrefix "van" ] .
-
-<https://www.leonvanwissen.nl/> a foaf:Document,
-        schema:WebPage ;
-    foaf:maker <https://leonvanwissen.nl/me> ;
-    foaf:primaryTopic <https://www.leonvanwissen.nl/me> ;
-    schema:mainEntity <https://leonvanwissen.nl/me> .
 

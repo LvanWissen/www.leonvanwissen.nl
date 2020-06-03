@@ -11,17 +11,13 @@ tags:
 date: "2019-06-24"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://w3id.org/roar"
 
 image:
   caption: roar
   focal_point: Smart
 
 links:
-- icon: file-alt
-  icon_pack: fa
-  name: ontology specification
-  url: https://w3id.org/roar
 url_code: ""
 url_pdf: ""
 url_slides: ""

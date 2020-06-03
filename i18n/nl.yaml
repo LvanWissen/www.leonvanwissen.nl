@@ -104,6 +104,8 @@
   translation: Presentatie
 - id: pub_tool
   translation: Tool / Demo
+- id: pub_poster
+  translation: Poster
 - id: open_project_site
   translation: Ga naar Projecten pagina
 - id: posts
